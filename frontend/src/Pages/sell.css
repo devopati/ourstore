@@ -1,0 +1,36 @@
+.sell-container {
+  padding-top: 2.7rem;
+  color: #000080;
+}
+.sell-form {
+  background: #007fff;
+  /* background: #007fff; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 15rem;
+  padding: 3rem;
+  border-radius: 12px;
+}
+.sell-form input,
+.sell-form textarea {
+  padding: 8px;
+  outline: none;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+
+.sell-form label {
+  font-weight: bold;
+  font-size: 17px;
+}
+.sell-form button {
+  padding: 11px 57px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.form-btn {
+  display: flex;
+  justify-content: right;
+}
